@@ -17,7 +17,7 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="Robert Kovac's Profolio."
       />
-      <meta property="og:image" content="https://imgur.com/YTNNknY.png" />
+      <meta property="og:image" content="https://imgur.com/2NqZL3h.png" />
       <meta property="og:url" content="https://duckysolucky.tech/" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
