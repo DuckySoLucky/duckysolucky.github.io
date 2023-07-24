@@ -8,7 +8,7 @@ const contactItems = [
   },
   {
     social: 'Discord',
-    link: 'DuckySoLucky#5181',
+    link: 'duckysolucky',
     href: 'https://discord.com/users/486155512568741900',
   },
   {
@@ -28,7 +28,7 @@ const contactItems = [
   },
   {
     social: 'Website',
-    link: 'DuckySoLucky.tech',
+    link: 'duckySoLucky.tech',
     href: 'http://duckysolucky.tech/',
   },
 ];
@@ -40,7 +40,7 @@ const ContactCode = () => {
        tag: <a>production</a>
         </p>
       <p className={styles.line}>
-        <span>kostas</span>&#58;
+        <span>duckysolucky</span>&#58;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;

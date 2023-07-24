@@ -4,7 +4,6 @@ import RepoCard from '../components/RepoCard';
 import styles from '../styles/GithubPage.module.css';
 
 const GithubPage = ({ repos, user }) => {
-  // console.log(repos);
   const theme = {
     level0: '#161B22',
     level1: '#0e4429',
@@ -19,7 +18,7 @@ const GithubPage = ({ repos, user }) => {
 
   repos.unshift(
     {
-      name: 'Vape V4',
+      name: 'Vape-V4',
       description: "This GitHub repository provides access to the cracked version of Vape V4 (v4.04 and v4.10), a popular paid cheat client for Minecraft. The Vape cheat client offers a wide range of features and tools designed to enhance gameplay and provide players with unique advantages in the Minecraft world.",
       watchers: 504,
       forks: 217,
@@ -27,7 +26,7 @@ const GithubPage = ({ repos, user }) => {
       html_url: "https://github.com/DuckySoLucky/Vape-V4",
     },
     {
-    name: 'Vape Lite',
+    name: 'Vape-Lite',
     description: "This GitHub repository provides access to the cracked version of Vape lite, a popular paid ghost cheat client for Minecraft. The Vape cheat client offers a wide range of features and tools designed to enhance gameplay and provide players with unique advantages in the Minecraft world while still staying ghost.",
     watchers: 238,
     forks: 91,

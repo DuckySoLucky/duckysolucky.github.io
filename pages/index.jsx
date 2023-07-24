@@ -1,5 +1,4 @@
 import Link from 'next/link';
-// import Illustration from '../components/Illustration';
 import Image from "next/image";
 import styles from '../styles/HomePage.module.css';
 
@@ -41,12 +40,6 @@ export default function HomePage() {
                     <span key='C' className='C'>
                       C
                     </span>
-                    <span key='EJS' className='EJS'>
-                      EJS
-                    </span>
-                    <span key='SCSS' className='SCSS'>
-                      SCSS
-                    </span>
                     <span key='SQL' className='SQL'>
                       SQL
                     </span>
@@ -64,14 +57,10 @@ export default function HomePage() {
             <Link href="/about">
               <button className={styles.button}>About Me</button>
             </Link>
-            {/* <Link href="/projects">
-              <button className={styles.button}>View Projects</button>
-            </Link> */}
             <Link href="/contact">
               <button className={styles.outlined}>Contact</button>
             </Link>
           </div>
-          {/* <Illustration className={styles.illustration} /> */}
           <div className={styles.right}>
             <div className={styles.picture_boader}>
               <Image

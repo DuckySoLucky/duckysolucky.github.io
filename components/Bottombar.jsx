@@ -1,8 +1,6 @@
 import ErrorIcon from './icons/ErrorIcon';
 import WarningIcon from './icons/WarningIcon';
 import BellIcon from './icons/BellIcon';
-import CheckIcon from './icons/CheckIcon';
-import NextjsIcon from './icons/NextjsIcon';
 import GithubIcon from './icons/GithubIcon';
 import LinkedinIcon from './icons/LinkedinIcon';
 import SourceControlIcon from './icons/SourceControlIcon';
@@ -13,7 +11,7 @@ const Bottombar = () => {
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/DuckySoLucky"
+          href="https://github.com/DuckySoLucky/duckysolucky.github.io"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -41,14 +39,6 @@ const Bottombar = () => {
             <p>Github</p>
           </div>
         </a>
-        {/* <div className={styles.section}>
-          <NextjsIcon className={styles.icon} />
-          <p>Powered by Next.js</p>
-        </div> */}
-        {/* <div className={styles.section}>
-          <CheckIcon className={styles.icon} />
-          <p>Prettier</p>
-        </div> */}
         <div className={styles.section}>
           <BellIcon />
         </div>
