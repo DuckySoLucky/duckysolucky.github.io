@@ -1,9 +1,9 @@
-import { useEffect } from "react";
-import Layout from "../components/Layout";
-import Head from "../components/Head";
-import "../styles/globals.css";
-import "../styles/themes.css";
-import { Analytics } from "@vercel/analytics/react";
+// eslint-disable-next-line import/extensions, import/no-unresolved
+import { Analytics } from "@vercel/analytics/react-client";
+import Layout from "../components/Layout.jsx";
+import Head from "../components/Head.jsx";
+import React, { useEffect } from "react";
+import PropTypes from "prop-types";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -20,5 +20,10 @@ function MyApp({ Component, pageProps }) {
     </Layout>
   );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired,
+};
 
 export default MyApp;
