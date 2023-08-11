@@ -1,13 +1,6 @@
 const ForkIcon = (props) => {
   return (
-    <svg
-      aria-hidden="true"
-      viewBox="0 0 16 16"
-      data-view-component="true"
-      height={16}
-      width={16}
-      {...props}
-    >
+    <svg aria-hidden="true" viewBox="0 0 16 16" data-view-component="true" height={16} width={16} {...props}>
       <path
         fillRule="evenodd"
         fill="currentColor"

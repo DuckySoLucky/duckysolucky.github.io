@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Link from "next/link";
 import Image from "next/image";
-import styles from '../styles/HomePage.module.css';
+import styles from "../styles/HomePage.module.css";
 
 export default function HomePage() {
   return (
@@ -19,37 +19,36 @@ export default function HomePage() {
                 <div className={styles.content}>
                   <h4>Skill Set</h4>
                   <div className={styles.tags}>
-                    <span key='JavaScript' className='JavaScript'>
+                    <span key="JavaScript" className="JavaScript">
                       JavaScript
                     </span>
-                    <span key='Rust' className='Rust'>
+                    <span key="Rust" className="Rust">
                       Rust
                     </span>
-                    <span key='cpp' className='cpp'>
+                    <span key="cpp" className="cpp">
                       C++
                     </span>
-                    <span key='Java' className='Java'>
+                    <span key="Java" className="Java">
                       Java
                     </span>
-                    <span key='TypeScript' className='TypeScript'>
+                    <span key="TypeScript" className="TypeScript">
                       TypeScript
                     </span>
-                    <span key='Bash' className='Bash'>
+                    <span key="Bash" className="Bash">
                       Bash
                     </span>
-                    <span key='C' className='C'>
+                    <span key="C" className="C">
                       C
                     </span>
-                    <span key='SQL' className='SQL'>
+                    <span key="SQL" className="SQL">
                       SQL
                     </span>
-                    <span key='PHP' className='PHP'>
+                    <span key="PHP" className="PHP">
                       PHP
                     </span>
-                    <span key='Csharp' className='Csharp'>
+                    <span key="Csharp" className="Csharp">
                       C#
                     </span>
-
                   </div>
                 </div>
               </div>
@@ -63,15 +62,8 @@ export default function HomePage() {
           </div>
           <div className={styles.right}>
             <div className={styles.picture_boader}>
-              <Image
-                className={styles.picture}
-                src="/me.png"
-                width={300}
-                height={290}
-                alt="Robert's Picture"
-              />
+              <Image className={styles.picture} src="/me.png" width={300} height={290} alt="Robert's Picture" />
             </div>
-
           </div>
         </div>
       </div>
@@ -81,6 +73,6 @@ export default function HomePage() {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Home' },
+    props: { title: "Home" },
   };
 }

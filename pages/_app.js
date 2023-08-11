@@ -8,10 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     if (localStorage.getItem("theme")) {
-      document.documentElement.setAttribute(
-        "data-theme",
-        localStorage.getItem("theme")
-      );
+      document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));
     }
   }, []);
 

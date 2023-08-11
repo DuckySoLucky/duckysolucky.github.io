@@ -1,5 +1,5 @@
-import ThemeInfo from '../components/ThemeInfo';
-import styles from '../styles/SettingsPage.module.css';
+import ThemeInfo from "../components/ThemeInfo";
+import styles from "../styles/SettingsPage.module.css";
 
 const SettingsPage = () => {
   return (
@@ -55,7 +55,7 @@ const SettingsPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Settings' },
+    props: { title: "Settings" },
   };
 }
 

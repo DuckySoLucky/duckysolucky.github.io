@@ -17,42 +17,22 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className={styles.cta}>
           {project.source_code && (
-            <a
-              href={project.source_code}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
+            <a href={project.source_code} target="_blank" rel="noopener noreferrer" className={styles.underline}>
               Code
             </a>
           )}
           {project.demo && (
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
+            <a href={project.demo} target="_blank" rel="noopener noreferrer" className={styles.underline}>
               Demo
             </a>
           )}
           {project.scholar && (
-            <a
-              href={project.scholar}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
+            <a href={project.scholar} target="_blank" rel="noopener noreferrer" className={styles.underline}>
               Paper
             </a>
           )}
           {project.pypi && (
-            <a
-              href={project.pypi}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
+            <a href={project.pypi} target="_blank" rel="noopener noreferrer" className={styles.underline}>
               PyPi
             </a>
           )}

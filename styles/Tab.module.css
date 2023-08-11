@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   border: 1px solid var(--tab-border);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 0.9rem;
   cursor: pointer;
 }
@@ -20,9 +20,9 @@
   border-bottom: none;
 }
 
-@media screen and (max-width: 900px) {  
+@media screen and (max-width: 900px) {
   .tab {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
 }
 

@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import ContactCode from '../components/ContactCode';
-import styles from '../styles/ContactPage.module.css';
+import { useState } from "react";
+import ContactCode from "../components/ContactCode";
+import styles from "../styles/ContactPage.module.css";
 
 const ContactPage = () => {
   return (
@@ -15,7 +15,7 @@ const ContactPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Contact' },
+    props: { title: "Contact" },
   };
 }
 

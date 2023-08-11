@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 .picture_boader {
   border: 10px solid rgba(64, 102, 97, 0.5);
@@ -23,7 +22,7 @@
 
 .background {
   font-size: 5rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   line-height: 1.1;
   color: var(--bg-text);
   position: absolute;
@@ -56,7 +55,7 @@
 
 .bio::before,
 .bio::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -73,7 +72,8 @@
   margin-left: 0.4rem;
   width: 0.125em;
   background: var(--accent-color);
-  animation: typewriter 2.5s steps(24) 500ms forwards,
+  animation:
+    typewriter 2.5s steps(24) 500ms forwards,
     blink 750ms steps(24) infinite;
 }
 
@@ -231,9 +231,8 @@
   }
 
   .name {
-    font-size: 2rem;    
+    font-size: 2rem;
     margin-bottom: 2rem;
-
   }
 
   .bio {
