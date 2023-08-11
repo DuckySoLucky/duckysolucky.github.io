@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import styles from '../styles/ProjectCard.module.css';
+import Image from "next/image";
+import styles from "../styles/ProjectCard.module.css";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
         <p>{project.description}</p>
         <div className={styles.tags}>
           {project.tags.map((tag) => (
-            <span key={tag} className={tag}>
+            <span key={tag} className={tag === "C++" ? "cpp" : tag}>
               {tag}
             </span>
           ))}
@@ -27,34 +27,34 @@ const ProjectCard = ({ project }) => {
             </a>
           )}
           {project.demo && (
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            Demo
-          </a>
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              Demo
+            </a>
           )}
           {project.scholar && (
-          <a
-            href={project.scholar}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            Paper
-          </a>
+            <a
+              href={project.scholar}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              Paper
+            </a>
           )}
           {project.pypi && (
-          <a
-            href={project.pypi}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            PyPi
-          </a>
+            <a
+              href={project.pypi}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              PyPi
+            </a>
           )}
         </div>
       </div>

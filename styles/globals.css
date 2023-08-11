@@ -147,10 +147,10 @@
 .GraphFrames:hover {
   background: rgba(0, 0, 0, 0.25);
 }
-.Cplusplus {
+.cpp {
   border: 0.1rem solid rgb(144, 151, 252);
 }
-.Cplusplus:hover {
+.cpp:hover {
   background: rgba(144, 151, 252, 0.25);
 }
 .Rust {

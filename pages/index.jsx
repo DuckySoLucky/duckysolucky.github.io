@@ -25,7 +25,7 @@ export default function HomePage() {
                     <span key='Rust' className='Rust'>
                       Rust
                     </span>
-                    <span key='Cplusplus' className='Cplusplus'>
+                    <span key='cpp' className='cpp'>
                       C++
                     </span>
                     <span key='Java' className='Java'>
