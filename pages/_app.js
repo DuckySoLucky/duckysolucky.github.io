@@ -1,9 +1,13 @@
-// eslint-disable-next-line import/extensions, import/no-unresolved
-import { Analytics } from "@vercel/analytics/react-client";
-import Layout from "../components/Layout.jsx";
-import Head from "../components/Head.jsx";
-import React, { useEffect } from "react";
-import PropTypes from "prop-types";
+/* eslint-disable react/prop-types */
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/extensions */
+import { useEffect } from "react";
+import Layout from "../components/Layout";
+import Head from "../components/Head";
+import "../styles/globals.css";
+import "../styles/themes.css";
+import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -20,10 +24,5 @@ function MyApp({ Component, pageProps }) {
     </Layout>
   );
 }
-
-MyApp.propTypes = {
-  Component: PropTypes.elementType.isRequired,
-  pageProps: PropTypes.object.isRequired,
-};
 
 export default MyApp;
