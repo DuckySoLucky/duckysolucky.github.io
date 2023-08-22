@@ -28,7 +28,7 @@ const contactItems = [
   },
   {
     social: "Website",
-    link: "duckySoLucky.tech",
+    link: "duckysolucky.tech",
     href: "http://duckysolucky.tech/",
   },
 ];
