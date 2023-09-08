@@ -32,7 +32,7 @@ export default function HomePage() {
                       Java
                     </span>
                     <span key="Mongo" className="Mongo">
-                      Mongo
+                      MongoDB
                     </span>
                     <span key="TypeScript" className="TypeScript">
                       TypeScript
@@ -47,8 +47,8 @@ export default function HomePage() {
                       PostgreSQL
                     </span>
                     <span key="SQL" className="SQL">
-                        SQL
-                      </span>
+                      SQL
+                    </span>
                     {
                      /*
                       <span key="PHP" className="PHP">
