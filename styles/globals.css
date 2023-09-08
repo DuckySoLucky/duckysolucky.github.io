@@ -153,6 +153,24 @@
 .cpp:hover {
   background: rgba(144, 151, 252, 0.25);
 }
+.Redis {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+.Redis:hover {
+  background: rgba(255, 0, 0, 0.25);
+}
+.Mongo {
+  border: 0.1rem solid rgb(144, 238, 144);
+}
+.Mongo:hover {
+  background: rgba(144, 238, 144, 0.25);
+}
+.PostgreSQL {
+  border: 0.1rem solid rgb(47, 103, 147);
+}
+.PostgreSQL:hover {
+  background: rgba(47, 103, 147, 0.25);
+}
 .Rust {
   border: 0.1rem solid rgb(239, 113, 113);
 }

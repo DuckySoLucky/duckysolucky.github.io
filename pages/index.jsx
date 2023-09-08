@@ -26,10 +26,13 @@ export default function HomePage() {
                       Rust
                     </span>
                     <span key="cpp" className="cpp">
-                      C++
+                      C/C++
                     </span>
                     <span key="Java" className="Java">
                       Java
+                    </span>
+                    <span key="Mongo" className="Mongo">
+                      Mongo
                     </span>
                     <span key="TypeScript" className="TypeScript">
                       TypeScript
@@ -37,18 +40,25 @@ export default function HomePage() {
                     <span key="Bash" className="Bash">
                       Bash
                     </span>
-                    <span key="C" className="C">
-                      C
+                    <span key="Redis" className="Redis">
+                      Redis
+                    </span>
+                    <span key="PostgreSQL" className="PostgreSQL">
+                      PostgreSQL
                     </span>
                     <span key="SQL" className="SQL">
-                      SQL
-                    </span>
-                    <span key="PHP" className="PHP">
-                      PHP
-                    </span>
-                    <span key="Csharp" className="Csharp">
-                      C#
-                    </span>
+                        SQL
+                      </span>
+                    {
+                     /*
+                      <span key="PHP" className="PHP">
+                        PHP
+                      </span>
+                      <span key="Csharp" className="Csharp">
+                        C#
+                      </span>
+                     */
+                    }
                   </div>
                 </div>
               </div>
