@@ -28,8 +28,8 @@ const contactItems = [
   },
   {
     social: "Website",
-    link: "duckysolucky.tech",
-    href: "http://duckysolucky.tech/",
+    link: "duckysolucky.is-a.dev",
+    href: "https://duckysolucky.is-a.dev/",
   },
 ];
 
