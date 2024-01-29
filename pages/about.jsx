@@ -12,13 +12,13 @@ const AboutPage = () => {
           <span role="img" aria-label="book">
             📖
           </span>{" "}
-          Studying CS or Something idk @ <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0/">School or smth</a>.
+          Learning or something idk.{" "}
         </li>
         <li>
           <span role="img" aria-label="graduate-hat">
             🎓
           </span>{" "}
-          Researching some stuff @ <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0/">QwackCord</a>.
+          Studying Computer Science.{" "}
         </li>
         <li>
           <span role="img" aria-label="light-bulb">
@@ -30,7 +30,7 @@ const AboutPage = () => {
           <span role="img" aria-label="laptop">
             💻
           </span>{" "}
-          Currently working on Hypixel Network related projects.{" "}
+          Currently working on surviving til the next day.{" "}
         </li>
       </ul>
       <br />
