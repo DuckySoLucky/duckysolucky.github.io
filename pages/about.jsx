@@ -30,7 +30,7 @@ const AboutPage = () => {
           <span role="img" aria-label="laptop">
             💻
           </span>{" "}
-          Currently working on surviving til the next day.{" "}
+          Currently working on surviving till the next day.{" "}
         </li>
       </ul>
       <br />
