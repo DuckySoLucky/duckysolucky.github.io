@@ -22,11 +22,6 @@ const contactItems = [
     href: "https://twitter.com/DuckySoLucky",
   },
   {
-    social: "LinkedIn",
-    link: "Robert Kovac",
-    href: "https://www.linkedin.com/in/robert-kovac-26a6ba254/",
-  },
-  {
     social: "Website",
     link: "duckysolucky.is-a.dev",
     href: "https://duckysolucky.is-a.dev/",
