@@ -27,7 +27,7 @@
     "id": 4,
     "name": "SkyHelper",
     "image": "put icon here",
-    "description": "Core Hypixel utility project with modules for management and SkyHelper Networth.",
+    "description": "The most popular Hypixel Skyblock bot, Also worked on management and skyhelper-networth.",
     "tags": ["Discord.js", "TypeScript", "MongoDB", "Redis"]
   },
   {
