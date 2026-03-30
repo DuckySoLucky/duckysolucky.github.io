@@ -1,14 +1,61 @@
 [
   {
     "id": 1,
-    "name": "SkyCrypt",
-    "image": "https://github.com/SkyCryptWebsite/SkyCrypt/raw/development/public/resources/img/screenshots/windows-0.jpg",
-    "description": "The SkyCrypt Project, which is based on LeaPhant's skyblock-stats, allows you to share your Hypixel SkyBlock profile with other players with a quick overview of your Stats, Skills, Armor, Weapons and Accessories.",
-    "tags": ["TypeScript", "JavaScript", "EJS", "SCSS"],
-    "source_code": "https://github.com/SkyCryptWebsite/SkyCrypt"
+    "name": "SkyCrypt Frontend",
+    "image": "https://raw.githubusercontent.com/SkyCryptWebsite/SkyCrypt-Frontend/refs/heads/dev/static/img/screenshots/desktop.avif",
+    "description": "Frontend for SkyCrypt based on LeaPhant's skyblock-stats, giving players a fast profile overview with stats, skills, gear, and integrated NW calculator support.",
+    "tags": ["TypeScript", "Svelte", "TailwindCSS", "Vite"],
+    "source_code": "https://github.com/SkyCryptWebsite/SkyCrypt-Frontend"
   },
   {
     "id": 2,
+    "name": "SkyCrypt Backend",
+    "image": "https://opengraph.githubassets.com/1/SkyCryptWebsite/SkyCrypt-Backend",
+    "description": "The backend for SkyCrypt, It handles, sorts and filters all the data from the Hypixel API, and presents it in a usable format for the frontend.",
+    "tags": ["Go", "Fiber", "MongoDB", "Redis"],
+    "source_code": "https://github.com/SkyCryptWebsite/SkyCrypt-Backend"
+  },
+  {
+    "id": 3,
+    "name": "hypixel-discord-chat-bridge",
+    "image": "https://r2.e-z.host/7380f6ed-4998-4a4e-a7a6-5ccc93aaee48/063rpfxj.png",
+    "description": "A two-way chat bridge between Hypixel guild chat and a Discord channel. The application utilizes discord.js v14 for communicating with Discord, and Mineflayer for communicating with Hypixel.",
+    "tags": ["JavaScript", "Node.js", "discord.js", "Mineflayer"],
+    "source_code": "https://github.com/DuckySoLucky/hypixel-discord-chat-bridge"
+  },
+  {
+    "id": 4,
+    "name": "SkyHelper",
+    "image": "put icon here",
+    "description": "Core Hypixel utility project with modules for management and SkyHelper Networth.",
+    "tags": ["Discord.js", "TypeScript", "MongoDB", "Redis"]
+  },
+  {
+    "id": 5,
+    "name": "QwackScore",
+    "image": "https://opengraph.githubassets.com/1/DuckySoLucky/QwackScore",
+    "description": "Scoring and ranking project focused on Hypixel-related metrics and comparisons.",
+    "tags": ["TypeScript", "Go", "Redis"],
+    "source_code": "https://github.com/DuckySoLucky/QwackScore"
+  },
+  {
+    "id": 6,
+    "name": "QwackAPI",
+    "image": "https://opengraph.githubassets.com/1/DuckySoLucky/QwackAPI",
+    "description": "A Hypixel SkyBlock API wrapper with extended endpoints for auctions, profiles, networth, stats, and more.",
+    "tags": ["JavaScript", "Node.js", "Express"],
+    "source_code": "https://github.com/DuckySoLucky/QwackAPI"
+  },
+  {
+    "id": 7,
+    "name": "This Website",
+    "image": "https://opengraph.githubassets.com/1/DuckySoLucky/duckysolucky.github.io",
+    "description": "My portfolio website, which your currently on!",
+    "tags": ["JavaScript", "Next.js", "CSS"],
+    "source_code": "https://github.com/DuckySoLucky/duckysolucky.github.io"
+  },
+  {
+    "id": 8,
     "name": "Vape V4",
     "image": "https://imgur.com/aCLM30g.png",
     "description": "This GitHub repository provides access to the cracked version of Vape V4 (v4.04 and v4.10), a popular paid cheat client for Minecraft. The Vape cheat client offers a wide range of features and tools designed to enhance gameplay and provide players with unique advantages in the Minecraft world.",
@@ -16,19 +63,11 @@
     "source_code": "https://github.com/DuckySoLucky/Vape-V4/"
   },
   {
-    "id": 3,
+    "id": 9,
     "name": "Vape Lite",
     "image": "https://imgur.com/Tw92r2O.png",
     "description": "This GitHub repository provides access to the cracked version of Vape lite, a popular paid ghost cheat client for Minecraft. The Vape cheat client offers a wide range of features and tools designed to enhance gameplay and provide players with unique advantages in the Minecraft world while still staying ghost.",
     "tags": ["Java", "C++", "Python"],
     "source_code": "https://github.com/DuckySoLucky/Vape-Lite/"
-  },
-  {
-    "id": 4,
-    "name": "hypixel-discord-chat-bridge",
-    "image": "https://r2.e-z.host/7380f6ed-4998-4a4e-a7a6-5ccc93aaee48/063rpfxj.png",
-    "description": "A two-way chat bridge between Hypixel guild chat and a Discord channel. The application utilizes discord.js v14 for communicating with Discord, and Mineflayer for communicating with Hypixel.",
-    "tags": ["JavaScript"],
-    "source_code": "https://github.com/DuckySoLucky/hypixel-discord-chat-bridge"
   }
 ]

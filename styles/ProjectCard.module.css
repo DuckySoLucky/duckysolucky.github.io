@@ -4,6 +4,7 @@
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
+  height: 100%;
 }
 
 .card:hover {
@@ -13,6 +14,9 @@
 .content {
   padding: 1rem;
   border-radius: 0 0 20px 20px;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto auto;
+  height: 100%;
 }
 
 .content p {
@@ -24,6 +28,8 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0.5rem 0 1rem;
+  min-height: 4.4rem;
+  align-content: flex-start;
 }
 
 .tags span {
@@ -37,6 +43,7 @@
 .cta {
   display: flex;
   gap: 1rem;
+  margin-top: auto;
 }
 
 .underline {
