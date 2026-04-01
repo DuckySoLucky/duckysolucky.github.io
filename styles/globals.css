@@ -261,6 +261,78 @@
 .TypeScript:hover {
   background: rgba(0, 51, 255, 0.25);
 }
+.Svelte {
+  border: 0.1rem solid rgb(255, 103, 31);
+}
+.Svelte:hover {
+  background: rgba(255, 103, 31, 0.25);
+}
+.Go {
+  border: 0.1rem solid rgb(0, 173, 216);
+}
+.Go:hover {
+  background: rgba(0, 173, 216, 0.25);
+}
+.SvelteKit {
+  border: 0.1rem solid rgb(255, 78, 35);
+}
+.SvelteKit:hover {
+  background: rgba(255, 78, 35, 0.25);
+}
+.TailwindCSS {
+  border: 0.1rem solid rgb(56, 189, 248);
+}
+.TailwindCSS:hover {
+  background: rgba(56, 189, 248, 0.25);
+}
+.Vite {
+  border: 0.1rem solid rgb(100, 108, 255);
+}
+.Vite:hover {
+  background: rgba(100, 108, 255, 0.25);
+}
+.Fiber {
+  border: 0.1rem solid rgb(0, 200, 83);
+}
+.Fiber:hover {
+  background: rgba(0, 200, 83, 0.25);
+}
+.MongoDB {
+  border: 0.1rem solid rgb(16, 185, 129);
+}
+.MongoDB:hover {
+  background: rgba(16, 185, 129, 0.25);
+}
+.Node\.js {
+  border: 0.1rem solid rgb(95, 173, 70);
+}
+.Node\.js:hover {
+  background: rgba(95, 173, 70, 0.25);
+}
+.discord\.js {
+  border: 0.1rem solid rgb(88, 101, 242);
+}
+.discord\.js:hover {
+  background: rgba(88, 101, 242, 0.25);
+}
+.Mineflayer {
+  border: 0.1rem solid rgb(122, 186, 120);
+}
+.Mineflayer:hover {
+  background: rgba(122, 186, 120, 0.25);
+}
+.Next\.js {
+  border: 0.1rem solid rgb(168, 168, 168);
+}
+.Next\.js:hover {
+  background: rgba(168, 168, 168, 0.25);
+}
+.CSS {
+  border: 0.1rem solid rgb(41, 101, 241);
+}
+.CSS:hover {
+  background: rgba(41, 101, 241, 0.25);
+}
 .CircleCI {
   border: 0.1rem solid rgb(164, 153, 153);
 }

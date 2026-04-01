@@ -22,6 +22,15 @@ export default function HomePage() {
                     <span key="JavaScript" className="JavaScript">
                       JavaScript
                     </span>
+                    <span key="TypeScript" className="TypeScript">
+                      TypeScript
+                    </span>
+                    <span key="Svelte" className="Svelte">
+                      Svelte
+                    </span>
+                    <span key="Go" className="Go">
+                      Go
+                    </span>
                     <span key="Rust" className="Rust">
                       Rust
                     </span>
@@ -33,9 +42,6 @@ export default function HomePage() {
                     </span>
                     <span key="Mongo" className="Mongo">
                       MongoDB
-                    </span>
-                    <span key="TypeScript" className="TypeScript">
-                      TypeScript
                     </span>
                     <span key="Bash" className="Bash">
                       Bash
@@ -49,16 +55,6 @@ export default function HomePage() {
                     <span key="SQL" className="SQL">
                       SQL
                     </span>
-                    {
-                     /*
-                      <span key="PHP" className="PHP">
-                        PHP
-                      </span>
-                      <span key="Csharp" className="Csharp">
-                        C#
-                      </span>
-                     */
-                    }
                   </div>
                 </div>
               </div>
