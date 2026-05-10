@@ -1,6 +1,5 @@
 {
   "name": "duckysolucky-portofolio",
-  "homepage": "https://duckysolucky.is-a.dev/",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.12.4",
@@ -27,6 +26,7 @@
     "react-pdf": "^5.7.2"
   },
   "devDependencies": {
+    "@opennext/cloudflare": "^3.0.0",
     "eslint": "^8.47.0",
     "eslint-plugin-react": "^7.33.1",
     "prettier": "^3.0.1"

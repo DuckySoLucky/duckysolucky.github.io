@@ -1,0 +1,20 @@
+name = "duckysolucky-portfolio"
+main = "./.opennext/server/index.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+route = "is-a.dev"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "duckysolucky-portfolio-assets"
+
+[build]
+command = "npm run build"
+cwd = "./"
+
+[build.upload]
+format = "service-worker"
+
+[[routes]]
+pattern = "is-a.dev/*"
