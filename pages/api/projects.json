@@ -1,73 +1,138 @@
 [
   {
     "id": 1,
-    "name": "SkyCrypt Frontend",
+    "name": "SkyCrypt",
     "image": "https://raw.githubusercontent.com/SkyCryptWebsite/SkyCrypt-Frontend/refs/heads/dev/static/img/screenshots/desktop.avif",
-    "description": "Frontend for SkyCrypt based on LeaPhant's skyblock-stats, giving players a fast profile overview with stats, skills, gear, and integrated NW calculator support.",
-    "tags": ["TypeScript", "Svelte", "TailwindCSS", "Vite"],
-    "source_code": "https://github.com/SkyCryptWebsite/SkyCrypt-Frontend"
+    "description": "SkyCrypt — provides fast profile overviews with stats, skills, gear and a backend that aggregates Hypixel data.",
+    "tags": [
+      "TypeScript",
+      "Svelte",
+      "Go",
+      "MongoDB",
+      "Redis",
+      "shad-cn",
+      "TailwindCSS"
+    ],
+    "links": [
+      {
+        "label": "Frontend",
+        "url": "https://github.com/SkyCryptWebsite/SkyCrypt-Frontend"
+      },
+      {
+        "label": "Backend",
+        "url": "https://github.com/SkyCryptWebsite/SkyCrypt-Backend"
+      },
+      {
+        "label": "Website",
+        "url": "https://sky.shiiyu.moe/"
+      }
+    ]
   },
   {
     "id": 2,
-    "name": "SkyCrypt Backend",
-    "image": "https://opengraph.githubassets.com/1/SkyCryptWebsite/SkyCrypt-Backend",
-    "description": "The backend for SkyCrypt, It handles, sorts and filters all the data from the Hypixel API, and presents it in a usable format for the frontend.",
-    "tags": ["Go", "Fiber", "MongoDB", "Redis"],
-    "source_code": "https://github.com/SkyCryptWebsite/SkyCrypt-Backend"
-  },
-  {
-    "id": 3,
     "name": "hypixel-discord-chat-bridge",
     "image": "https://r2.e-z.host/7380f6ed-4998-4a4e-a7a6-5ccc93aaee48/063rpfxj.png",
     "description": "A two-way chat bridge between Hypixel guild chat and a Discord channel. The application utilizes discord.js v14 for communicating with Discord, and Mineflayer for communicating with Hypixel.",
-    "tags": ["JavaScript", "Node.js", "discord.js", "Mineflayer"],
+    "tags": [
+      "JavaScript",
+      "discord.js",
+      "mineflayer"
+    ],
     "source_code": "https://github.com/DuckySoLucky/hypixel-discord-chat-bridge"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "SkyHelper",
-    "image": "put icon here",
-    "description": "The most popular Hypixel Skyblock bot, Also worked on management and skyhelper-networth.",
-    "tags": ["Discord.js", "TypeScript", "MongoDB", "Redis"]
+    "image": "https://dbl-discord.usercontent.prism.gg/icons/720018827433345138/f9d8eca275698402509c1219e024d135.png?size=256",
+    "description": "The most popular Hypixel Skyblock bot, Also worked on SkyHelper-Management and SkyHelper-Networth.",
+    "tags": [
+      "discord.js",
+      "JavaScript",
+      "MongoDB",
+      "Redis"
+    ],
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://skyhelper.altpapier.dev/"
+      },
+      {
+        "label": "Networth",
+        "url": "https://github.com/Altpapier/SkyHelper-Networth"
+      }
+    ]
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "QwackScore",
     "image": "https://opengraph.githubassets.com/1/DuckySoLucky/QwackScore",
-    "description": "Scoring and ranking project focused on Hypixel-related metrics and comparisons.",
-    "tags": ["TypeScript", "Go", "Redis"],
+    "description": "React Native app that provides fast football match scores and stats, utilizing a custom backend to fetch data from various football APIs and present it in a user-friendly interface.",
+    "tags": [
+      "React-Native",
+      "TypeScript",
+      "TailwindCSS",
+      "MongoDB"
+    ],
     "source_code": "https://github.com/DuckySoLucky/QwackScore"
   },
   {
-    "id": 6,
-    "name": "QwackAPI",
-    "image": "https://opengraph.githubassets.com/1/DuckySoLucky/QwackAPI",
-    "description": "A Hypixel SkyBlock API wrapper with extended endpoints for auctions, profiles, networth, stats, and more.",
-    "tags": ["JavaScript", "Node.js", "Express"],
-    "source_code": "https://github.com/DuckySoLucky/QwackAPI"
-  },
-  {
-    "id": 7,
-    "name": "This Website",
-    "image": "https://opengraph.githubassets.com/1/DuckySoLucky/duckysolucky.github.io",
-    "description": "My portfolio website, which your currently on!",
-    "tags": ["JavaScript", "Next.js", "CSS"],
-    "source_code": "https://github.com/DuckySoLucky/duckysolucky.github.io"
+    "id": 5,
+    "name": "hypixel-api-reborn",
+    "image": "https://opengraph.githubassets.com/1/Hypixel-API-Reborn/hypixel-api-reborn",
+    "description": "Community-maintained Hypixel API wrapper for Node.js with extended endpoints and utilities.",
+    "tags": [
+      "TypeScript",
+      "Node.js"
+    ],
+    "source_code": "https://github.com/Hypixel-API-Reborn/hypixel-api-reborn"
   },
   {
     "id": 8,
-    "name": "Vape V4",
-    "image": "https://imgur.com/aCLM30g.png",
-    "description": "This GitHub repository provides access to the cracked version of Vape V4 (v4.04 and v4.10), a popular paid cheat client for Minecraft. The Vape cheat client offers a wide range of features and tools designed to enhance gameplay and provide players with unique advantages in the Minecraft world.",
-    "tags": ["Rust", "Java", "C++", "Python", "Bash"],
-    "source_code": "https://github.com/DuckySoLucky/Vape-V4/"
+    "name": "Hypixel-Auction-Flipper",
+    "image": "https://opengraph.githubassets.com/1/DuckySoLucky/Hypixel-Auction-Flipper",
+    "description": "A tool for analyzing Hypixel auctions and identifying profitable flip opportunities.",
+    "tags": [
+      "JavaScript",
+      "Node.js"
+    ],
+    "source_code": "https://github.com/DuckySoLucky/Hypixel-Auction-Flipper"
   },
   {
     "id": 9,
+    "name": "This Website",
+    "image": "https://opengraph.githubassets.com/1/DuckySoLucky/duckysolucky.github.io",
+    "description": "My portfolio website (this site).",
+    "tags": [
+      "JavaScript",
+      "Next.js",
+      "CSS"
+    ],
+    "source_code": "https://github.com/DuckySoLucky/duckysolucky.github.io"
+  },
+  {
+    "id": 6,
+    "name": "Vape V4",
+    "image": "https://imgur.com/aCLM30g.png",
+    "description": "This GitHub repository provides access to the cracked version of Vape V4 (v4.04 and v4.10), a popular paid cheat client for Minecraft. The Vape cheat client offers a wide range of features and tools designed to enhance gameplay and provide players with unique advantages in the Minecraft world.",
+    "tags": [
+      "Rust",
+      "Java",
+      "C++",
+      "Python",
+      "Bash"
+    ],
+    "source_code": "https://github.com/DuckySoLucky/Vape-V4/"
+  },
+  {
+    "id": 7,
     "name": "Vape Lite",
     "image": "https://imgur.com/Tw92r2O.png",
     "description": "This GitHub repository provides access to the cracked version of Vape lite, a popular paid ghost cheat client for Minecraft. The Vape cheat client offers a wide range of features and tools designed to enhance gameplay and provide players with unique advantages in the Minecraft world while still staying ghost.",
-    "tags": ["Java", "C++", "Python"],
+    "tags": [
+      "Java",
+      "C++",
+      "Python"
+    ],
     "source_code": "https://github.com/DuckySoLucky/Vape-Lite/"
   }
 ]

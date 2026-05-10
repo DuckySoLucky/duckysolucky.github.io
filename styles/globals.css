@@ -543,6 +543,30 @@
 .SCSS:hover {
   background: rgba(255, 118, 214, 0.25);
 }
+.mineflayer {
+  border: 0.1rem solid rgb(122, 186, 120);
+}
+.mineflayer:hover {
+  background: rgba(122, 186, 120, 0.25);
+}
+.shad-cn {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+.shad-cn:hover {
+  background: rgba(255, 0, 0, 0.25);
+}
+.React-Native {
+  border: 0.1rem solid rgb(0, 255, 0);
+}
+.React-Native:hover {
+  background: rgba(0, 255, 0, 0.25);
+}
+.Next\.js {
+  border: 0.1rem solid rgb(168, 168, 168);
+}
+.Next\.js:hover {
+  background: rgba(168, 168, 168, 0.25);
+}
 
 /* PDF */
 .react-pdf__Page__canvas {
